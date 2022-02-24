@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="user_name">Username</string>
+    <string name="email">Email</string>
+    <string name="log_in">Log In</string>
+    <string name="join_now">Don\'t have an account? Join Now</string>
+    <string name="usrnm_edit">Username</string>
+    <string name="password">Password</string>
+    <string name="submit_login">Submit</string>
+    <string name="number_of_remaining_attempts">Number of remaining attempts:</string>
+    <string name="login">Login</string>
+    <string name="activity_3">Activity 3</string>
+    <string name="buybutton">Buy</string>
+    <string name="sellbutton">Sell</string>
+    <string name="tradebutton">Trade</string>
+    <string name="homemenu">homemenu</string>
+    <string name="home">Home</string>
+    <string name="about_us">About Us</string>
+    <string name="my_account">My Account</string>
+    <string name="buy_clothes">Buy Clothes</string>
+    <string name="by_category">By Category</string>
+    <string name="sell_my_clothes">Sell My Clothes</string>
+    <string name="instructions">Instructions:</string>
+    <string name="select">Select</string>
+    <string name="trade_my_clothes">Trade My Clothes</string>
+    <string name="fair_trade">Fair Trade</string>
+    <string name="clothing_image">Clothing_image</string>
+</resources>

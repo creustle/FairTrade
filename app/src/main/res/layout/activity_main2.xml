@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="410dp"
+        android:layout_height="93dp"
+        android:background="@color/purple_500"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="50"
+        android:text="@string/fair_trade"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/clothesimg"
+        android:layout_width="362dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="92dp"
+        android:contentDescription="@string/clothing_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/header"
+        app:srcCompat="@drawable/clothes_image" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="174dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="64dp"
+        android:text="Buy"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clothesimg" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="174dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="172dp"
+        android:text="Sell"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clothesimg" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="174dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="284dp"
+        android:text="Trade"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clothesimg" />
+
+    <ImageView
+        android:id="@+id/acct_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/acct_icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
